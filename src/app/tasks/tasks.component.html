@@ -1,0 +1,30 @@
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm" *ngFor = "let i of servedt; let x = index">
+        <div class="card border-success mb-3 " style="max-width: 14rem;" >
+
+  <div class="card-header bg-transparent border-success">Task {{x+1}}</div>
+            <div class="card-body text-success">
+              <h2 class="card-title">Task ID: {{i.id}}</h2>
+              <p class="card-text">Action: {{i.text}}</p>
+              <p class="card-text">Date: {{i.day}}</p>
+              <p class="card-text">Time: {{i.time}}</p>
+            </div>
+            <!-- <div class="d-flex "> -->
+
+            <div class = " d-flex justify-content-between card-footer bg-transparent border-success col-sm">
+                <button type="button " class="btn btn-danger">
+                    Delete
+                </button>
+                <button type="button" class="btn btn-dark" ><!--(click)="togleButton(status)"-->
+                    Complete
+                </button>
+            </div>
+      </div> 
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-success">
+    Add task
+</button>

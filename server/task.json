@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": " Shopping",
+      "day": "May 6th, 2021",
+      "time": "3:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": " lunch",
+      "day": "May 6th, 2021",
+      "time": "4:30pm",
+      "reminder": false
+    }
+    ,
+    {
+      "id": 3,
+      "text": "work",
+      "day": "May 6th, 2021",
+      "time": "3:30pm",
+      "reminder": true
+    }
+    ,
+    {
+      "id": 4,
+      "text": "travel",
+      "day": "May 6th, 2021",
+      "time": "2:30pm",
+      "reminder": false
+    }
+    ,
+    {
+      "id": 5,
+      "text": "eat",
+      "day": "May 6th, 2021",
+      "time": "5:30pm",
+      "reminder": false
+    }
+  ]
+}
